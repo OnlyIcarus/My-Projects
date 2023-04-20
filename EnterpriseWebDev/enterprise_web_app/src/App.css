@@ -1,0 +1,155 @@
+/* Taken from https://webdesign.tutsplus.com/tutorials/create-a-stylish-dark-contact-form-with-html-css-and-javascript--cms-33201 */
+:root {
+  --white: #afafaf;
+  --red: #e31b23;
+  --bodyColor: #292a2b;
+  --borderFormEls: hsl(0, 0%, 10%);
+  --bgFormEls: hsl(0, 0%, 31%);
+  --bgFormBut: hsl(0, 0%, 13%);
+  --bgFormElsFocus: hsl(0, 7%, 20%);
+}
+
+body {
+  background-image: url("./background.jpg"); /*  by pikisuperstar on Freepik */
+  background-size: 100%;
+}
+
+#login-button-container {
+  width: 20%;
+  float: right;
+  margin-top: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+#login-container {
+  display: none;
+}
+
+#login-container,
+#register-container {
+  width: 20%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+
+/* Start of code taken from https://webdesign.tutsplus.com/tutorials/create-a-stylish-dark-contact-form-with-html-css-and-javascript--cms-33201 */
+.buttons,
+.inputLogin {
+  padding: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  line-height: 1.5;
+  padding: 15px 10px;
+  border: 1px solid var(--borderFormEls);
+  color: var(--white);
+  background: var(--bgFormEls);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+    transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.buttons {
+  width: 60%;
+  background: var(--white);
+  color: var(--bgFormBut);
+}
+
+.inputLogin:focus {
+  background: var(--bgFormElsFocus);
+}
+
+.inputLogin:focus {
+  transform: scale(1.02);
+}
+
+
+.buttons:enabled:hover,
+.buttons:hover {
+  background: var(--bgFormElsFocus);
+  cursor: pointer;
+}
+
+/* End of code taken from https://webdesign.tutsplus.com/tutorials/create-a-stylish-dark-contact-form-with-html-css-and-javascript--cms-33201 */
+
+#signout-button {
+  width: 10%;
+  margin-left: 75%;
+}
+
+#center {
+  text-align: center;
+}
+
+.inputCalculate {
+  margin-left: 2%;
+  margin-bottom: 5%;
+  height: 30px;
+  width: 250px;
+}
+
+.topLine {
+  margin-top: 2%;
+}
+
+.hoursWidth {
+  width: 300px;
+}
+
+#calculate {
+  width: 15%;
+  margin-left: 26%;
+}
+
+#inputs {
+  width: 80%;
+}
+
+#main-body {
+  display: none;
+}
+
+#quote-name {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+/* Start of code taken directly from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
+
+#quote-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#quote-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+#quote-table th,
+#quote-table td {
+    padding: 12px 15px;
+}
+
+#quote-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+#quote-table tbody tr {
+  background-color: #f3f3f3;
+}
+
+#quote-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+#quote-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+/* End of code taken directly from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */

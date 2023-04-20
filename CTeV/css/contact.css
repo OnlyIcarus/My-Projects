@@ -1,0 +1,52 @@
+.body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contact h1{ 
+    text-align: center;
+}
+
+.contact_form{
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact_form_text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    border: 1;
+    text-decoration: underline;
+}
+
+.submit-btn{
+    text-align: center;
+    background-color: #EE6C4D;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.contact_form_text:focus{
+    box-shadow: 0 0 10px 4px #98C1D9;
+}
+
+label {
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+}

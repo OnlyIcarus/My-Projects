@@ -1,0 +1,115 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d5a80;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+}
+
+.active {
+    background-color: #ed917b;
+  }
+
+#navigation {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3.8px;
+}
+
+#header {
+    white-space: nowrap;
+    position:relative;
+}
+
+#header * {
+    display: inline-block;
+}
+
+#logo {
+    margin-left: 0px;
+    width: 150px;
+    height: 50%;
+}
+
+#content {
+    position: relative;
+    margin-top: 4em;
+    padding: 10px;
+}
+
+#video {
+    text-align: center;
+}
+
+#button {
+    background-color: #EE6C4D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1em;
+  }
+
+#buttonFrame {
+    text-align: center;
+}
+
+#textContent {
+    margin-top: 4em;
+    padding: 10px;
+}
+
+hr.rounded {
+    margin-top: 4em;
+    border-top: 4px solid #EE6C4D;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .Selfies {
+      margin: 2em;
+  }
+
+  #selfiePanel {
+      text-align: center;
+  }
+
+  p {
+      font-family: Verdana, sans-serif;
+  }
+
+  figcaption {
+      font-family: Verdana, sans-serif;
+  }
+
+  .centeredImage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 15%;
+  }
