@@ -1,10 +1,10 @@
 ![MasterHead](https://nielseniq.com/wp-content/uploads/sites/4/2021/02/data-science-icon-animation-banner-clockwise-4.gif)
 <h1 align="center">Hi 👋, I'm Isaac</h1>
-<h3 align="center">A passionate frontend developer from Scotland</h3>
+<h3 align="center">A passionate fullstack developer from Scotland</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=onlyicarus&label=Profile%20views&color=0e75b6&style=flat" alt="onlyicarus" /> </p>
 
-#Overview
+<h2>Overview</h2>
 Welcome to my GitHub repository! This is a compilation of my personal projects and coursework from my studies at Robert Gordon University, with a strong focus on full stack web development, data science, and some passion projects. Here, you will find a diverse range of assignments, projects, and experiments that I have conducted, demonstrating my growing skills and knowledge that I have gained throughout the years.
 
 - 🔭 I’m currently working on **various projects from data science to backend development.**
